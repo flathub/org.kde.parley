@@ -1,70 +1,70 @@
 {
-  "app-id": "org.kde.parley",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
-  "base": "io.qt.qtwebengine.BaseApp",
-  "base-version": "5.15-21.08",
-  "sdk": "org.kde.Sdk",
-  "command": "parley",
-  "rename-icon": "parley",
-  "finish-args": [
-    "--share=ipc",
-    "--share=network",
-    "--device=dri",
-    "--socket=wayland",
-    "--socket=fallback-x11"
-  ],
-  "modules": [
-    {
-      "name": "kdeedu-data",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+    "app-id": "org.kde.parley",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "base": "io.qt.qtwebengine.BaseApp",
+    "base-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "parley",
+    "rename-icon": "parley",
+    "finish-args": [
+        "--share=ipc",
+        "--share=network",
+        "--device=dri",
+        "--socket=wayland",
+        "--socket=fallback-x11"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.08.3/src/kdeedu-data-22.08.3.tar.xz",
-          "sha256": "9d0c0fe9e228f6c3c74f3bb44f6f8264c4fa0ec97bc6078c8dbf77948587c9a4",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/kdeedu-data-$version.tar.xz"
-          }
-        }
-      ]
-    },
-    {
-      "name": "libkeduvocdocument",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+            "name": "kdeedu-data",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kdeedu-data-22.12.0.tar.xz",
+                    "sha256": "ae5444801291157844c4555c889ee369c9e68f7df508fcf768986336f818829f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kdeedu-data-$version.tar.xz"
+                    }
+                }
+            ]
+        },
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.08.3/src/libkeduvocdocument-22.08.3.tar.xz",
-          "sha256": "23f362662ef18763bc7ca46e7fcf25c4bb7de5101f761bea70ff01122ecf3e98",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/libkeduvocdocument-$version.tar.xz"
-          }
-        }
-      ]
-    },
-    {
-      "name": "parley",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+            "name": "libkeduvocdocument",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/libkeduvocdocument-22.08.3.tar.xz",
+                    "sha256": "23f362662ef18763bc7ca46e7fcf25c4bb7de5101f761bea70ff01122ecf3e98",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkeduvocdocument-$version.tar.xz"
+                    }
+                }
+            ]
+        },
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.08.3/src/parley-22.08.3.tar.xz",
-          "sha256": "7b866d43d2013b0047dc19b86012c89484d06f8531fe0ec324b164b546963dc1",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/parley-$version.tar.xz"
-          }
+            "name": "parley",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/parley-22.12.0.tar.xz",
+                    "sha256": "f99c370cf0e44e355090aace6c52bef4cd3ca96c88280e633ad7e2c5171ed851",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/parley-$version.tar.xz"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
