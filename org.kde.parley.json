@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kdeedu-data-22.12.0.tar.xz",
-                    "sha256": "ae5444801291157844c4555c889ee369c9e68f7df508fcf768986336f818829f",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kdeedu-data-22.12.1.tar.xz",
+                    "sha256": "889e06d3aefe45c595392dfb1726e0b73eaad7f66235cc22833b0ee5c4bacfe5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -38,8 +38,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/libkeduvocdocument-22.12.0.tar.xz",
-                    "sha256": "909b2adcb9ec64d3d78e0c8e8228d3969b3699997efc32eec8030e78f8bf91fd",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/libkeduvocdocument-22.12.1.tar.xz",
+                    "sha256": "c44d39fcd0f2c23556203a509181b2df8e3f63ff483ed341579e262e98f95b23",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -55,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/parley-22.12.0.tar.xz",
-                    "sha256": "f99c370cf0e44e355090aace6c52bef4cd3ca96c88280e633ad7e2c5171ed851",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/parley-22.12.1.tar.xz",
+                    "sha256": "8b76fac515bf7f244f77f48faf7abcb62936fff0c7d01db0b4d6473a16f5f809",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
