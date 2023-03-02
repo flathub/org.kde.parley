@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/kdeedu-data-22.12.2.tar.xz",
-                    "sha256": "01498a074f5d35016f8cac0868d114a29d7b9c17bb909fb06621d628fcdbced9",
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/kdeedu-data-22.12.3.tar.xz",
+                    "sha256": "83149499c7eae49ce0ee8d08f4fcfe1575f975081ed67ed085b8f40c31419dc8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -38,8 +38,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/libkeduvocdocument-22.12.2.tar.xz",
-                    "sha256": "6f0545f2daf3f8e68c891289de6dcf2a20dc22e4fba5a2a6561a58779c77bfd9",
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/libkeduvocdocument-22.12.3.tar.xz",
+                    "sha256": "4f747290922bfa24c9303a061715c06828e5a026c1711292e457f8726bef2f12",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
