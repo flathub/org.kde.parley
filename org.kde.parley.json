@@ -55,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/parley-22.12.2.tar.xz",
-                    "sha256": "b364153c41faaa4e24a3b472e4e86006bfcc30066fc5a1e9b829cd301cd1b469",
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/parley-22.12.3.tar.xz",
+                    "sha256": "0d3e11496bc8094e3be0b2d66cf68b0e28cceeabbcf9ea6abbf41cc6dd6b2d4b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
