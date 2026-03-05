@@ -14,7 +14,7 @@
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
-     "cleanup": [
+    "cleanup": [
         "/include",
         "/mkspecs",
         "/share/doc"
@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kdeedu-data-25.12.2.tar.xz",
-                    "sha256": "c9eca746a7a2690502955d74342ffda22ed04dfed67eadea8f05730882c3b7de",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kdeedu-data-25.12.3.tar.xz",
+                    "sha256": "ce32148f41a2776a02a593035ba5c3df573b7fa0123a8134b9255c9de3b27f04",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -50,8 +50,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/libkeduvocdocument-25.12.2.tar.xz",
-                    "sha256": "c88631188a5b77b19d6b9887f2d9d6a2745a3339aa76d35555bc91b8f4366b1c",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkeduvocdocument-25.12.3.tar.xz",
+                    "sha256": "92a680125c75bb9d419d36335bdce78510ff74d3b892b3573729a19cae18752d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -67,8 +67,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/parley-25.12.2.tar.xz",
-                    "sha256": "eaa1b77d45bd172fb3431005eb1402a5586681c40b43de8bd4222b94d45c6fa0",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/parley-25.12.3.tar.xz",
+                    "sha256": "a8d5e35070a535f90af9e8faa9a9f933b7ae1ad3d04bfb8ebd03dc42ac2ede0c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
