@@ -47,6 +47,10 @@
         {
             "name": "parley",
             "buildsystem": "cmake-ninja",
+            "post-install": [
+                "mkdir $FLATPAK_DEST/share/licenses/$FLATPAK_ID/parley/",
+                "cp -rv LICENSES/* $FLATPAK_DEST/share/licenses/$FLATPAK_ID/parley/"
+            ],
             "sources": [
                 {
                     "type": "archive",
