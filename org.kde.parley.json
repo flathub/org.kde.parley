@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/libkeduvocdocument-26.04.3.tar.xz",
-                    "sha256": "023c9bb69a98ddb897bc15dd0e526f98817f20acb6cf34068a8382d850003b64",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libkeduvocdocument-26.08.1.tar.xz",
+                    "sha256": "2928b62af21d08de2f4ffd5efe055e007b321bf2c675045b6defb6799097898e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -54,8 +54,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/parley-26.04.3.tar.xz",
-                    "sha256": "cecbbb130ef203b3bc53b758bb0635b4c9843a914056d7268554e3693c589cbc",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/parley-26.08.1.tar.xz",
+                    "sha256": "f75ad6da8d9b867ed24d7275333902269983d094d06a32971d6c929cd6523306",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
